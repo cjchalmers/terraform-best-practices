@@ -51,3 +51,13 @@ variable "instance_2_name" {
   type        = string
   default     = "instance-2"
 }
+
+variable "terraform" {
+description = "Value of the Terraform Tag for the S3 bucket"
+type        = string
+}
+
+variable "environment" {
+description = "Value of the Environment Tag for the S3 bucket"
+type        = string
+}

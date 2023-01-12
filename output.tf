@@ -10,17 +10,17 @@ output "instance_2_id" {
 
 output "website_bucket_1_arn" {
   description = "ARN of the bucket"
-  value       = module.website_s3_bucket_1.arn
+  value       = module.website_s3_bucket.arn
 }
 
 output "website_bucket_1_name" {
   description = "Name (id) of the bucket"
-  value       = module.website_s3_bucket_1.name
+  value       = module.website_s3_bucket.name
 }
 
 output "website_bucket_1_domain" {
   description = "Domain name of the bucket"
-  value       = module.website_s3_bucket_1.domain
+  value       = module.website_s3_bucket.domain
 }
 
 output "website_bucket_2_arn" {

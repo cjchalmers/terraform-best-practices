@@ -33,8 +33,8 @@ module "website_s3_bucket" {
   bucket_name = "clickittech-terraform-best-practices"
 
   tags = {
-    Terraform   = "true"
-    Environment = "test"
+    Terraform   = var.terraform
+    Environment = var.environment
   }
 }
 
@@ -44,7 +44,7 @@ module "website_s3_bucket_2" {
   bucket_name = "clickittech-terraform-best-practices-bucket-2"
 
   tags = {
-    Terraform   = "true"
-    Environment = "test"
+    Terraform   = var.terraform
+    Environment = var.environment
   }
 }
