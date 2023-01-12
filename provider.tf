@@ -11,5 +11,5 @@ terraform {
 # AWS Provider (aws) with region set to ‘us-east-1’
 provider "aws" {
   profile = "tempo"
-  region = "us-east-1"
+  region  = "us-east-1"
 }
